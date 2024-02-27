@@ -52,8 +52,7 @@ public class UserService {
     @Transactional
     public User getUser(Integer id){
         Optional<User> optionalUser = userRepository.findById(id);
-        User user = optionalUser.orElseThrow(() -> new RuntimeException("User not found"));
-        return user ;
+        return optionalUser.orElseThrow(() -> new RuntimeException("User not found"));
     }
 
 

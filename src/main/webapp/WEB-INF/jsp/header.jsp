@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Header</title>
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="/jsp/header.css">
 </head>
 <body>
 

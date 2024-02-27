@@ -6,14 +6,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/jsp/index.css">
     <title>Crud Application</title>
 </head>
 <body>
 
 <table>
     <%@include file="header.jsp"%>
-    <a  href="/add.jsp"><button id="add">ADD</button></a>
+    <a  href="/getAddPage"><button id="add">ADD</button></a>
     <thead>
     <tr>
         <th>Name</th>
