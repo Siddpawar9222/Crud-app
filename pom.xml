@@ -82,7 +82,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>crud-application</finalName>
+		<finalName>crud-application-1</finalName>
 	</build>
 
 
